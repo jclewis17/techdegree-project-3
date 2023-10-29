@@ -37,3 +37,7 @@
     margin-right: auto;
     padding-top: 20px;
 }
+
+fieldset {
+    border: none;
+}
