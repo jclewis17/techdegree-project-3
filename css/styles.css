@@ -87,3 +87,9 @@ label {
 .set2 {
     margin-top: 30px;
 }
+
+.checkbox-label {
+    display: flex;
+    margin-bottom: 10px;
+    width: 20%;
+}
