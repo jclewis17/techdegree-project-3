@@ -106,6 +106,9 @@ label {
 .newsletter {
     margin-bottom: 20px;
 }
+#plain_text {
+    margin-bottom: 20px;
+}
 
 textarea {
     margin-top: 20px;
