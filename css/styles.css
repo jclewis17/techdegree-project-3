@@ -60,6 +60,11 @@ legend {
     font-style: italic;
 }
 
+.tel,
+.zip {
+    font-style: italic;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -70,7 +75,18 @@ select {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -10px;
+    border-color: black;
     border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    background-color: #d1c5c5;
+    border: 3px inset #928a8a;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s; /* Add transition properties */
 }
 
 label {
@@ -113,4 +129,24 @@ label {
 textarea {
     margin-top: 20px;
     height: 100px;
+}
+
+button {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-color: #87CEEB;
+    background-color: #87CEEB;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+footer {
+    background-color: #b0ceff;
+    font-style: italic;
+    font-size: .75rem;
+    text-align: center;
+    margin-left: -10px;
+    padding: 20px 0 30px;
 }
