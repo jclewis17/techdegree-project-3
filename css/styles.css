@@ -60,7 +60,9 @@ legend {
     font-style: italic;
 }
 
-input,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 select {
     margin-bottom: 20px;
     width: 100%;
@@ -90,5 +92,6 @@ label {
 
 .checkbox-label {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    gap: 1.5rem;
 }
