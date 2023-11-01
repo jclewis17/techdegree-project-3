@@ -95,3 +95,13 @@ label {
     margin-bottom: 20px;
     gap: 1.5rem;
 }
+
+.radio {
+    display: flex;
+    margin-top: 20px;
+    gap: 1.5rem;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
