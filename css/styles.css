@@ -179,18 +179,17 @@ footer {
         display: flex;
         gap: 1rem;
     }
-
     label[for="name"],
     label[for="email"],
     label[for="phone"],
     label[for="address"],
     label[for="city"],
     label[for="state"]     {
-        flex-basis: 15%;
+        flex-basis: 60%;
     }
 
     label[for="zip"]     {
-        flex-basis: 13%;
+        flex-basis: 35%;
     }
 
     #zip {
