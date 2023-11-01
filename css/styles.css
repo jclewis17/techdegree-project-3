@@ -180,8 +180,17 @@ footer {
         gap: 1rem;
     }
 
-    label {
+    label[for="name"],
+    label[for="email"],
+    label[for="phone"],
+    label[for="address"],
+    label[for="city"],
+    label[for="state"]     {
         flex-basis: 15%;
+    }
+
+    label[for="zip"]     {
+        flex-basis: 13%;
     }
 
     #zip {
