@@ -81,11 +81,20 @@ select {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="tel"]:focus {
+input[type="tel"]:focus,
+textarea:focus {
     background-color: #d1c5c5;
     border: 3px inset #928a8a;
     border-radius: 5px;
     outline: none;
+    transition: background-color 0.3s; /* Add transition properties */
+}
+
+input[type="text"]:not(:focus),
+input[type="email"]:not(:focus),
+input[type="tel"]:not(:focus),
+textarea:not(:focus) {
+    background-color: white;
     transition: background-color 0.3s; /* Add transition properties */
 }
 
