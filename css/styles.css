@@ -181,10 +181,10 @@ footer {
     }
 
     label {
-        flex-basis: 20%;
+        flex-basis: 15%;
     }
 
     #zip {
-        width: 30%;
+        width: 20%;
     }
 }
