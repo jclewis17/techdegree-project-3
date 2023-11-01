@@ -63,6 +63,7 @@ legend {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+textarea,
 select {
     margin-bottom: 20px;
     width: 100%;
@@ -104,4 +105,9 @@ label {
 
 .newsletter {
     margin-bottom: 20px;
+}
+
+textarea {
+    margin-top: 20px;
+    height: 100px;
 }
