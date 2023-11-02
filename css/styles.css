@@ -65,7 +65,10 @@ legend {
 }
 
 .tel,
-.zip {
+.zip,
+#topics,
+#address,
+#city {
     font-style: italic;
 }
 
